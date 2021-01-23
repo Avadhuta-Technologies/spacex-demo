@@ -13,7 +13,7 @@ const SpaceItemCard = ({ spaceItem }) => {
   return (
     <div className="space-card" key={spaceItem.flight_number + "Anki"}>
       <div className="image-container">
-        <img src="https://images2.imgbox.com/40/e3/GypSkayF_o.png" />
+        <img src={spaceItem.links.mission_patch} />
       </div>
       <div className="content">
         <h4 className="heading">
