@@ -1,0 +1,34 @@
+.space-filter{
+    padding: 10px;
+}
+.year{
+    background: #c9dda0;
+    width: 65px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    line-height: 30px;
+    height: 28px;
+    font-weight: bold;
+
+}
+.filter-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    margin-top: 5px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
+}
+.selectedItem{
+    background-color: #64a45e;
+}
